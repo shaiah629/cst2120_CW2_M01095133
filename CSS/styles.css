@@ -25,7 +25,20 @@
 /* Logo image formatting */
 #LogoImage {
     display: block;
-    margin: 0px;
+    margin: 0 auto;
     height: 60px;
     width: auto;
 }
+
+#NavLinks {
+    list-style: none;
+    margin: 10px;
+    
+}
+
+#NavLinks a {
+    text-decoration: none;
+    font-size: 16px;
+    
+}
+
