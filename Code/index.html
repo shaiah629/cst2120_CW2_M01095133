@@ -3,23 +3,35 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="../css/style.css">
+        <link rel="stylesheet" type="text/css" href="../CSS/styles.css">
         <title>artify</title>
     </head>
 
     <body>
-        <!-- Navigation bar -->
-        <div class="Nav-Bar">
-            <ul class="Nav-Links">
-                <a href="index.html" class="Logo-Link">
-                    <img src="../Assets/Images/ArtifyLogo.svg">
-                </a>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Explore</a></li>
-                <li><a href="#">Notifications</a></li>
-                <li><a href="#">Profile</a></li>
-            </ul>
+        <!-- Content container -->
+        <div class="Container">
+
+            <div class="Column" id="NavBar">
+                <ul id="NavLinks">
+                    <a href="index.html" id="LogoLink">
+                        <img src="../Assets/Images/ArtifyLogo.svg" id="LogoImage" alt="Artify logo">
+                    </a>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">EXPLORE</a></li>
+                    <li><a href="#">NOTIFICATIONS</a></li>
+                    <li><a href="#">PROFILE</a></li>
+                </ul>
+                <button class="button">POST</button>
+            </div>
+
+            <div class="Column" id="Feed">
+                <p>Feed</p>
+            </div>
+
+            <div class="Column" id="RightBar">
+                <p>Right bar</p>
+            </div>
+
         </div>
     </body>
-
 </html
