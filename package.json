@@ -1,0 +1,24 @@
+{
+  "name": "cst2120_m01095133_cw1_social_networking_website",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000c\u0000s\u0000t\u00002\u00001\u00002\u00000\u0000_\u0000C\u0000W\u00002\u0000_\u0000M\u00000\u00001\u00000\u00009\u00005\u00001\u00003\u00003\u0000\r\u0000 \u0000",
+  "homepage": "https://github.com/shaiah629/cst2120_CW2_M01095133#readme",
+  "bugs": {
+    "url": "https://github.com/shaiah629/cst2120_CW2_M01095133/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaiah629/cst2120_CW2_M01095133.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.22.3",
+    "express-session": "^1.19.0"
+  }
+}
